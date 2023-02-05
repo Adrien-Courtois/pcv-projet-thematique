@@ -32,7 +32,7 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 url = 'http://' + config["ADRESSE_SOCKET"] + ':' + config['PORT_SOCKET'] + '/upload'
 
 # Init camera
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(config['SOURCE'])
 if cam.isOpened() == False:
     print("Error")
 
