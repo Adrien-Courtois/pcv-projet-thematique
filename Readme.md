@@ -1,4 +1,4 @@
-# Serveur de traitement d'image
+# Point de contrôle
 
 ## Installation
 
