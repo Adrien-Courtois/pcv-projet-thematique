@@ -45,6 +45,7 @@ while ret:
     dt = current_time - previous_time
     previous_time = current_time
 
+    time.sleep(0.01)
     print(1/dt)
     
     # Image
